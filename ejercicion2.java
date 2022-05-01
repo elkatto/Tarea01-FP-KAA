@@ -8,10 +8,11 @@ public class ejercicion2 {
         double soles, dolares;
         // datos de entrada
 
-        Scanner hc = new Scanner(System.in);
-        System.out.println("ingrese total de soles");
+        try (Scanner hc = new Scanner(System.in)) {
+            System.out.println("ingrese total de soles");
 
-        soles = hc.nextDouble();
+            soles = hc.nextDouble();
+        }
         // proceso
         dolares = soles / 3.85;
         // datos de salida
