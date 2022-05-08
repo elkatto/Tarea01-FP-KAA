@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class ejercicio2-8
-{
+public class bicicleta {
 
     public static void main(String[] args) {
         // definir variables
